@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Kalayda Vadim HW02</title>
+  </head>
+  <body>
+    <h1>Мое хобби</h1>
+    <h2 class = "favourite_sport_game">Любимая спортивная игра</h2>
+    <p class = "favourite_sport_game_text">Баскетболл, Воллейбол, <span>крокет</span></p>
+    <h2 class = "favourite_game">Любимые видео-игры</h2>
+    <p class = "favourite_game_text">The Witcher 3, Uncharted 4, Uncharted 3, Heavy Rain и т.д</p>
+    <h2 class = "favourite_food">Любимая еда</h2>
+    <p class = "favourite_food_text">Картофанчик, Борщик, Пица и т.д</p>
+    <form>
+    <div class = "asks">
+    <h2 class = "now_you">Теперь ваша очередь</h2>
+    <div>
+      <h2 class = "">Любимый вид спорта:</h2>
+    <label for = "football">Футбол
+      <input id = "football" type="checkbox" name="fav_sport_football" value="">
+      </label>
+    <label for = "basketball">Баскетбол
+      <input id = "basketball" type="checkbox" name="fav_sport_basketball" value="">
+      </label>
+    <label for = "volleyball">Волейбол
+      <input id = "volleyball" type="checkbox" name="fav_sport_volleyball" value="">
+      </label>
+    <label for = "tennis">Теннис
+      <input id = "tennis" type="checkbox" name="fav_sport_tennis" value="">
+      </label>
+      </div>
+      <hr>
+      <div class = "fav_games">
+        <h2 class = "fav_games_header">Любимая игра:</h2>
+        <input class = "input_fav_games" type = "text" name = "fav_games_text" value = "" required>
+      </div>
+      <hr>
+      <div class = "fav_food">
+        <h2 class = "fav_food_header">Любимая еда:</h2>
+        <input class = "input_fav_food" type = "text" name = "fav_food_text" value = "" required>
+      </div>
+      <hr>
+      <label for = "soglasie_text">Вы соглашаетесь с тем, что все ваши данные попадут в руки в ФБР?
+      <input id = "soglasie_text" type="checkbox" name = "soglasie" value="" required>
+      </label>
+      <div class = "button">
+      <button>Отправить</button>
+    </div>
+    </div>
+  </form>
+  </body>
+</html>

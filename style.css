@@ -1,0 +1,104 @@
+body {
+  font-family: BookMan Old Style;
+}
+
+h1 {
+  color: #ff0000;
+  font-size: 52px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.favourite_sport_game {
+  color: #bbe727;
+  text-decoration: overline;
+}
+
+.favourite_sport_game_text {
+  color: #0dc29c;
+}
+
+span {
+  text-decoration: line-through;
+  color: red;
+}
+
+.favourite_game {
+  color: #236db1;
+}
+
+.favourite_game_text {
+  color: #cb003d;
+}
+
+.favourite_food {
+  color: #6b8600;
+}
+
+.favourite_food_text {
+  color: #ff8a00;
+}
+
+p:hover {
+  color: #d8e309;
+}
+
+.favourite_sport_game:hover {
+  color: #006eff;
+}
+
+.favourite_game:hover {
+  color: #006eff;
+}
+
+.favourite_food:hover {
+  color: #006eff;
+}
+
+.now_you {
+  font-size: 50px;
+  padding-top: 100px;
+  color: red;
+}
+
+.asks {
+  text-align: center;
+
+}
+
+label {
+  font-family: Bookman Old Style;
+  font-weight: bold;
+}
+
+hr {
+  width: 30%;
+  border: 1px solid black;
+  margin-top: 25px;
+}
+
+.input_fav_games {
+  width: 250px;
+  font-weight: bold;
+  font-family: Bookman Old Style;
+}
+
+.input_fav_food {
+  width: 250px;
+  font-weight: bold;
+  font-family: Bookman Old Style;
+}
+
+button {
+  margin-top: 25px;
+}
