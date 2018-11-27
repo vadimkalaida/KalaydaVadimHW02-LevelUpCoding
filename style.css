@@ -1,6 +1,3 @@
-body {
-  font-family: BookMan Old Style;
-}
 
 h1 {
   color: #ff0000;
@@ -19,12 +16,12 @@ p {
   font-weight: bold;
 }
 
-.favourite_sport_game {
+.favourite-sport-game {
   color: #bbe727;
   text-decoration: overline;
 }
 
-.favourite_sport_game_text {
+.favourite-sport-game-text {
   color: #0dc29c;
 }
 
@@ -33,19 +30,19 @@ span {
   color: red;
 }
 
-.favourite_game {
+.favourite-game {
   color: #236db1;
 }
 
-.favourite_game_text {
+.favourite-game-text {
   color: #cb003d;
 }
 
-.favourite_food {
+.favourite-food {
   color: #6b8600;
 }
 
-.favourite_food_text {
+.favourite-food-text {
   color: #ff8a00;
 }
 
@@ -53,19 +50,19 @@ p:hover {
   color: #d8e309;
 }
 
-.favourite_sport_game:hover {
+.favourite-sport-game:hover {
   color: #006eff;
 }
 
-.favourite_game:hover {
+.favourite-game:hover {
   color: #006eff;
 }
 
-.favourite_food:hover {
+.favourite-food:hover {
   color: #006eff;
 }
 
-.now_you {
+.now-you {
   font-size: 50px;
   padding-top: 100px;
   color: red;
@@ -77,7 +74,6 @@ p:hover {
 }
 
 label {
-  font-family: Bookman Old Style;
   font-weight: bold;
 }
 
@@ -87,18 +83,22 @@ hr {
   margin-top: 25px;
 }
 
-.input_fav_games {
+.input-fav-games {
   width: 250px;
   font-weight: bold;
-  font-family: Bookman Old Style;
 }
 
-.input_fav_food {
+.input-fav-food {
   width: 250px;
   font-weight: bold;
-  font-family: Bookman Old Style;
 }
 
 button {
   margin-top: 25px;
+  border: 1px solid #000000;
+  transition: 0.5s
+}
+
+button:hover {
+  background: linear-gradient(65deg, #2373d1, #10c0e7, #00c9ff);
 }
